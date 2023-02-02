@@ -57,7 +57,7 @@ function CreatePost() {
       try {
         setGeneratingImg(true);
         const respone = await fetch(
-          "hhttps://dall-e-erc721.onrender.com/api/v1/dalle",
+          "https://dall-e-erc721.onrender.com/api/v1/dalle",
           {
             method: "Post",
             headers: {
